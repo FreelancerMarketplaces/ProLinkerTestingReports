@@ -1,0 +1,1 @@
+[{"uid":"9cf31e080e7398ea","name":"should login from home page","time":{"start":1661864619268,"stop":1661864621291,"duration":2023},"status":"passed","severity":"normal"},{"uid":"38d09b39c0beccb3","name":"should check if login modal window is displayed","time":{"start":1661864615739,"stop":1661864618034,"duration":2295},"status":"passed","severity":"normal"}]
