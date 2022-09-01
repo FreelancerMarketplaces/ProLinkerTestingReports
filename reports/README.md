@@ -1,2 +1,0 @@
-# Reports here
-# [Freelancer]() | [Prolinker]()
