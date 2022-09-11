@@ -1,1 +1,1 @@
-[{"buildOrder":76,"reportUrl":"http://example.org/build#13/AllureReport","reportName":"Demo allure report","data":{"run":34,"retry":0}},{"data":{"run":34,"retry":0}},{"data":{"run":31,"retry":0}},{"data":{"run":31,"retry":0}}]
+[{"buildOrder":77,"data":{"run":34,"retry":0}},{"buildOrder":76,"reportUrl":"http://example.org/build#13/AllureReport","reportName":"Demo allure report","data":{"run":34,"retry":0}},{"data":{"run":34,"retry":0}},{"data":{"run":31,"retry":0}},{"data":{"run":31,"retry":0}}]
