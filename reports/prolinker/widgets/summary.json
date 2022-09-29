@@ -1,1 +1,1 @@
-{"reportName":"Prolinker Allure Report","testRuns":[],"statistic":{"failed":0,"broken":2,"skipped":1,"passed":41,"unknown":0,"total":44},"time":{"start":1664376254742,"stop":1664376431324,"duration":176582,"minDuration":0,"maxDuration":15352,"sumDuration":165790}}
+{"reportName":"Prolinker Allure Report","testRuns":[],"statistic":{"failed":0,"broken":2,"skipped":2,"passed":43,"unknown":0,"total":47},"time":{"start":1664462273903,"stop":1664462441115,"duration":167212,"minDuration":0,"maxDuration":14897,"sumDuration":156978}}
