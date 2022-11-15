@@ -1,1 +1,1 @@
-{"reportName":"Freelancer Allure Report","testRuns":[],"statistic":{"failed":4,"broken":1,"skipped":0,"passed":82,"unknown":0,"total":87},"time":{"start":1668446291977,"stop":1668447714945,"duration":1422968,"minDuration":904,"maxDuration":156194,"sumDuration":1173757}}
+{"reportName":"Freelancer Allure Report","testRuns":[],"statistic":{"failed":4,"broken":1,"skipped":0,"passed":86,"unknown":0,"total":91},"time":{"start":1668503516809,"stop":1668504925868,"duration":1409059,"minDuration":901,"maxDuration":125235,"sumDuration":1108821}}
