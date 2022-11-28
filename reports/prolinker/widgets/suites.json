@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":3,"items":[{"uid":"314357f42425021eda282c74425783f6","name":"[FNN-588] Post project without account Negative","statistic":{"failed":3,"broken":0,"skipped":0,"passed":8,"unknown":0,"total":11}},{"uid":"c57e5ea93e32dde6a3f0729406188012","name":"[FNN-577] Subscribe Negative","statistic":{"failed":0,"broken":0,"skipped":0,"passed":9,"unknown":0,"total":9}},{"uid":"d46bd6fda51b5281b161cc24629333ec","name":"[FNN-655] Reset password Negative","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}
