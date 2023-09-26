@@ -1,1 +1,1 @@
-{"reportName":"Freelancer Report","testRuns":[],"statistic":{"failed":9,"broken":5,"skipped":0,"passed":5,"unknown":0,"total":19},"time":{"start":1695625987484,"stop":1695627055196,"duration":1067712,"minDuration":10228,"maxDuration":481158,"sumDuration":3584358}}
+{"reportName":"Freelancer Report","testRuns":[],"statistic":{"failed":9,"broken":4,"skipped":0,"passed":5,"unknown":0,"total":18},"time":{"start":1695711987876,"stop":1695713525216,"duration":1537340,"minDuration":12794,"maxDuration":476295,"sumDuration":3247280}}
