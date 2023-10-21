@@ -1,0 +1,292 @@
+<pre style="display: inline-block; background-color: #4d4d4d; color: white; padding: 20px; text-shadow: 1px 1px 0 #444; min-width: 100%; height: auto; min-height: 100%;">.........Console Logs.........
+
+channel :>>  { email: 'test@email.com', number: '+380962358280' }
+
+Created user :>>  {
+  subscibeAs: undefined,
+  sectorNumber: 3,
+  sectorsOptionIndexList: [ 14, 2, 11 ],
+  sectorsTextList: [
+    'Sales en Account management',
+    'Financieel',
+    'Administratief, Secretarieel en Ondersteuning'
+  ],
+  sectorsText: 'Sales en Account management, Financieel, Administratief, Secretarieel en Ondersteuning',
+  firstName: 'AQA-CI-Sdsmn-699-U-TULvJ',
+  lastName: '22387',
+  email: 'AQA-CI-Sdsmn-699-U-TULvJ@mailsac.com',
+  phoneNumber: '+380 96 235 8280',
+  passwd: 'AQA-CI-Sdsmn-699-U-TULvJ',
+  repeatPasswd: 'AQA-CI-Sdsmn-699-U-TULvJ',
+  termsAndConditions: true,
+  companyName: undefined
+}
+Create profile :>>  {
+  country: 'Oekraïne',
+  zipCode: '03056',
+  city: 'Kyiv',
+  website: undefined,
+  picture: 'TestUser.jpg',
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+}
+↓-----------------------SET AUTOMATED TESTING CHANNELS-----------------------↓
+Status :>> 200
+Data :>> true
+↑-----------------------SET AUTOMATED TESTING CHANNELS-----------------------↑
+
+↓-----------------------GET LATEST CONTENT-----------------------↓
+Status :>> 200
+Data :>> "code: 799740"
+↑-----------------------GET LATEST CONTENT-----------------------↑
+
+↓-----------------------UNSET AUTOMATED TESTING CHANNELS-----------------------↓
+Status :>> 200
+Data :>> true
+↑-----------------------UNSET AUTOMATED TESTING CHANNELS-----------------------↑
+
+↓-----------------------GET MAILSAC MESSAGE LIST-----------------------↓
+Status :>> 200
+Data :>> [
+  {
+    "_id": "3aai1X_4pnfZ8ELNlYT2XWfsUvt82-0",
+    "from": [
+      {
+        "address": "noreply@freelancer.nl",
+        "name": "Freelancer"
+      }
+    ],
+    "to": [
+      {
+        "address": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+        "name": "AQA-CI-Sdsmn-699-U-TULvJ 22387"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "Verifieer je e-mailadres",
+    "savedBy": null,
+    "inbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "originalInbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "domain": "mailsac.com",
+    "received": "2023-10-21T04:45:01.878Z",
+    "size": 45557,
+    "attachments": [
+      "f1b01ab513b5e8344ebec2fa9d3ce9a5",
+      "c45bf7244294e53bf7847a58bcd9c317"
+    ],
+    "ip": "54.240.4.7",
+    "via": "172.31.16.150",
+    "folder": "inbox",
+    "labels": [],
+    "read": null,
+    "rtls": true,
+    "links": [
+      "https://staging.freelancer.nl/account/email-verify/AQA-CI-Sdsmn-699-U-TULvJ@mailsac.com",
+      "https://staging.freelancer.nl",
+      "https://staging.freelancer.nl/account/email-verify/AQA-CI-Sdsmn-699-U-TULvJ@mailsac.com?token=0a0671ae602878bb15adcebe47ce842d47245351ua0",
+      "https://staging.freelancer.nl/account/settings/email?utm_source=staging_freelancer_nl&utm_medium=email&utm_campaign=verify-user-emailaddress"
+    ],
+    "spam": 0
+  },
+  {
+    "_id": "2yhvBz61ZpIMw_Sz3PfS4QHSTC-0",
+    "from": [
+      {
+        "address": "noreply@freelancer.nl",
+        "name": "Freelancer"
+      }
+    ],
+    "to": [
+      {
+        "address": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+        "name": "AQA-CI-Sdsmn-699-U-TULvJ 22387"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "Gefeliciteerd! Uw account is opgewaardeerd!",
+    "savedBy": null,
+    "inbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "originalInbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "domain": "mailsac.com",
+    "received": "2023-10-21T04:44:47.414Z",
+    "size": 984965,
+    "attachments": [
+      "f1b01ab513b5e8344ebec2fa9d3ce9a5",
+      "c45bf7244294e53bf7847a58bcd9c317",
+      "004eeaa7a3d865bce8fec5ed713256e1"
+    ],
+    "ip": "54.240.4.17",
+    "via": "172.31.16.150",
+    "folder": "inbox",
+    "labels": [],
+    "read": null,
+    "rtls": true,
+    "links": [
+      "https://freelancer.nl",
+      "https://freelancer.nl/account/settings/email?utm_source=freelancer_nl&utm_medium=email&utm_campaign=subscription-activate"
+    ],
+    "spam": 0
+  },
+  {
+    "_id": "2y785FLi8MkWMb2bgJjV3X6M6-0",
+    "from": [
+      {
+        "address": "noreply@freelancer.nl",
+        "name": "Freelancer"
+      }
+    ],
+    "to": [
+      {
+        "address": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+        "name": ""
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "Premium support voor betaalde leden",
+    "savedBy": null,
+    "inbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "originalInbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "domain": "mailsac.com",
+    "received": "2023-10-21T04:44:46.210Z",
+    "size": 45593,
+    "attachments": [
+      "f1b01ab513b5e8344ebec2fa9d3ce9a5",
+      "c45bf7244294e53bf7847a58bcd9c317"
+    ],
+    "ip": "54.240.4.9",
+    "via": "172.31.35.201",
+    "folder": "inbox",
+    "labels": [],
+    "read": null,
+    "rtls": true,
+    "links": [
+      "https://staging.freelancer.nl",
+      "https://staging.freelancer.nl/account/settings/email?utm_source=staging_freelancer_nl&utm_medium=email&utm_campaign=premium-support-mail"
+    ],
+    "spam": 0
+  },
+  {
+    "_id": "2bw8l2eUql6OrGj8INpXe7Am-0",
+    "from": [
+      {
+        "address": "noreply@freelancer.nl",
+        "name": "Freelancer"
+      }
+    ],
+    "to": [
+      {
+        "address": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+        "name": "AQA-CI-Sdsmn-699-U-TULvJ 22387"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "Verifieer je e-mailadres",
+    "savedBy": null,
+    "inbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "originalInbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "domain": "mailsac.com",
+    "received": "2023-10-21T04:44:17.302Z",
+    "size": 45560,
+    "attachments": [
+      "f1b01ab513b5e8344ebec2fa9d3ce9a5",
+      "c45bf7244294e53bf7847a58bcd9c317"
+    ],
+    "ip": "54.240.4.11",
+    "via": "172.31.16.150",
+    "folder": "inbox",
+    "labels": [],
+    "read": null,
+    "rtls": true,
+    "links": [
+      "https://staging.freelancer.nl/account/email-verify/AQA-CI-Sdsmn-699-U-TULvJ@mailsac.com",
+      "https://staging.freelancer.nl",
+      "https://staging.freelancer.nl/account/email-verify/AQA-CI-Sdsmn-699-U-TULvJ@mailsac.com?token=c27744af1ba4a112ae2510b01670504f2b51363fua0",
+      "https://staging.freelancer.nl/account/settings/email?utm_source=staging_freelancer_nl&utm_medium=email&utm_campaign=verify-user-emailaddress"
+    ],
+    "spam": 0
+  },
+  {
+    "_id": "2awvXPefBNjycn25kQtbflgY-0",
+    "from": [
+      {
+        "address": "noreply@freelancer.nl",
+        "name": "Freelancer"
+      }
+    ],
+    "to": [
+      {
+        "address": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+        "name": "AQA-CI-Sdsmn-699-U-TULvJ 22387"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "Welkom bij Staging.freelancer.nl",
+    "savedBy": null,
+    "inbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "originalInbox": "aqa-ci-sdsmn-699-u-tulvj@mailsac.com",
+    "domain": "mailsac.com",
+    "received": "2023-10-21T04:44:16.029Z",
+    "size": 47757,
+    "attachments": [
+      "f1b01ab513b5e8344ebec2fa9d3ce9a5",
+      "c45bf7244294e53bf7847a58bcd9c317"
+    ],
+    "ip": "54.240.4.12",
+    "via": "172.31.35.201",
+    "folder": "inbox",
+    "labels": [],
+    "read": null,
+    "rtls": true,
+    "links": [
+      "https://staging.freelancer.nl",
+      "https://staging.freelancer.nl/account/settings",
+      "https://staging.freelancer.nl/account",
+      "https://freelancer.nl/media/Handboek-voor-Freelancers-2ETDVR4H-1-9.pdf",
+      "https://staging.freelancer.nl/account/settings/email?utm_source=staging_freelancer_nl&utm_medium=email&utm_campaign=new-user-welcome"
+    ],
+    "spam": 0
+  }
+]
+↑-----------------------GET MAILSAC MESSAGE LIST-----------------------↑
+
+msg :>>  {
+  _id: '3aai1X_4pnfZ8ELNlYT2XWfsUvt82-0',
+  from: [ { address: 'noreply@freelancer.nl', name: 'Freelancer' } ],
+  to: [
+    {
+      address: 'aqa-ci-sdsmn-699-u-tulvj@mailsac.com',
+      name: 'AQA-CI-Sdsmn-699-U-TULvJ 22387'
+    }
+  ],
+  cc: [],
+  bcc: [],
+  subject: 'Verifieer je e-mailadres',
+  savedBy: null,
+  inbox: 'aqa-ci-sdsmn-699-u-tulvj@mailsac.com',
+  originalInbox: 'aqa-ci-sdsmn-699-u-tulvj@mailsac.com',
+  domain: 'mailsac.com',
+  received: '2023-10-21T04:45:01.878Z',
+  size: 45557,
+  attachments: [
+    'f1b01ab513b5e8344ebec2fa9d3ce9a5',
+    'c45bf7244294e53bf7847a58bcd9c317'
+  ],
+  ip: '54.240.4.7',
+  via: '172.31.16.150',
+  folder: 'inbox',
+  labels: [],
+  read: null,
+  rtls: true,
+  links: [
+    'https://staging.freelancer.nl/account/email-verify/AQA-CI-Sdsmn-699-U-TULvJ@mailsac.com',
+    'https://staging.freelancer.nl',
+    'https://staging.freelancer.nl/account/email-verify/AQA-CI-Sdsmn-699-U-TULvJ@mailsac.com?token=0a0671ae602878bb15adcebe47ce842d47245351ua0',
+    'https://staging.freelancer.nl/account/settings/email?utm_source=staging_freelancer_nl&utm_medium=email&utm_campaign=verify-user-emailaddress'
+  ],
+  spam: 0
+}
+</pre>
