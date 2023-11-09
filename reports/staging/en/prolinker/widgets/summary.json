@@ -1,1 +1,1 @@
-{"reportName":"Prolinker Report","testRuns":[],"statistic":{"failed":26,"broken":10,"skipped":1,"passed":223,"unknown":0,"total":260},"time":{"start":1699423567748,"stop":1699427015145,"duration":3447397,"minDuration":2189,"maxDuration":324931,"sumDuration":11085287}}
+{"reportName":"Prolinker Report","testRuns":[],"statistic":{"failed":27,"broken":6,"skipped":1,"passed":223,"unknown":0,"total":257},"time":{"start":1699509944493,"stop":1699513110051,"duration":3165558,"minDuration":1641,"maxDuration":248515,"sumDuration":9707935}}
