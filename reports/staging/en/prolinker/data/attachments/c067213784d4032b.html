@@ -1,0 +1,63 @@
+<pre style="display: inline-block; background-color: #4d4d4d; color: white; padding: 20px; text-shadow: 1px 1px 0 #444; min-width: 100%; height: auto; min-height: 100%;">.........Console Logs.........
+
+addExperience :>>  {
+  position: 'position',
+  company: 'company',
+  iWorkHereNow: undefined,
+  periodFrom: { year: 2020, month: 1 },
+  periodUntil: { year: 2022, month: 1 },
+  budget: { currency: 'EUR', budget: 900, typeName: 'Per week' },
+  description: 'description'
+}
+↓-----------------------GET MAILSAC MESSAGE LIST-----------------------↓
+Status :>> 200
+Data :>> [
+  {
+    "_id": "8brqnGoSdJWCp_JCxlNe_d1H9QfQo-0",
+    "from": [
+      {
+        "address": "noreply@prolinker.com",
+        "name": "ProLinker"
+      }
+    ],
+    "to": [
+      {
+        "address": "test_ysoztik@mailsac.com",
+        "name": "Test_YsOZtik"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "AQA-CI-gSaUi-699-U-qVflp asks for your reference on Staging.prolinker.com",
+    "savedBy": null,
+    "inbox": "test_ysoztik@mailsac.com",
+    "originalInbox": "test_ysoztik@mailsac.com",
+    "domain": "mailsac.com",
+    "received": "2023-11-14T06:53:01.294Z",
+    "size": 48430,
+    "attachments": [
+      "50c9a91efb298c06f2b266f211eefdca",
+      "510b4c967896708a88237c71722bec44",
+      "478794c35d276d865f224f01c6096741"
+    ],
+    "ip": "54.240.4.10",
+    "via": "172.31.16.150",
+    "folder": "inbox",
+    "labels": [],
+    "read": null,
+    "rtls": true,
+    "links": [
+      "https://staging.prolinker.com/reference/validate",
+      "https://staging.prolinker.com/reference/validate?token=1875d92d83b99fa7c315e8216828b378ab2c471bua0"
+    ],
+    "spam": 0
+  }
+]
+↑-----------------------GET MAILSAC MESSAGE LIST-----------------------↑
+
+↓-----------------------GET MAILSAC MESSAGE TEXT-----------------------↓
+Status :>> 200
+Data :>> "Dear Test_YsOZtik\nPlease see the work reference below which I would like to add to my profile on Staging.prolinker.com.\nWould you be so kind to verify that we worked together and provide a brief feedback for this past work? It should not take more than a minute.\n\nTitle or project: position\nCompany: company\nPeriod: January 2020 - January 2022\n\nUse the following link to validate the reference and provide a short feedback:\n\nhttps://staging.prolinker.com/reference/validate\n\nYour input is highly appreciated by me and my future clients!\nThanks in advance.\nWith kind regards,\nAQA-CI-gSaUi-699-U-qVflp71362\n\n"
+↑-----------------------GET MAILSAC MESSAGE TEXT-----------------------↑
+
+</pre>
