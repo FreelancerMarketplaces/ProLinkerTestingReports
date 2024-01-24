@@ -1,0 +1,83 @@
+<pre style="display: inline-block; background-color: #4d4d4d; color: white; padding: 20px; text-shadow: 1px 1px 0 #444; min-width: 100%; height: auto; min-height: 100%;">.........Console Logs.........
+
+
+Created user :>>  {
+  sector: {
+    numberOfSectors: 3,
+    textList: [
+      'Construction',
+      'Film, TV and Photography',
+      'Health and Welfare'
+    ],
+    dataIdList: [ 19, 13, 16 ],
+    fullText: 'Construction, Film, TV and Photography, Health and Welfare'
+  },
+  companyName: 'Company vnkIknvZ',
+  firstName: 'AQA-CI-vtTZN-1027-U-Send-qoQqp',
+  lastName: '70493',
+  fullName: 'AQA-CI-vtTZN-1027-U-Send-qoQqp 70493',
+  email: 'AQA-CI-vtTZN-1027-U-Send-qoQqp@mailsac.com',
+  phoneNumber: '+380 96 798 7149',
+  pwd: 'AQA-CI-vtTZN-1027-U-Send-qoQqp',
+  repeatPwd: 'AQA-CI-vtTZN-1027-U-Send-qoQqp',
+  terms: true
+}
+Create profile :>>  {
+  country: 'Ukraine',
+  zipCode: '03056',
+  city: 'Kyiv',
+  website: undefined,
+  picture: 'TestUser.jpg',
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+}
+↓-----------------------SET AUTOMATED TESTING CHANNELS-----------------------↓
+Status :>> 200
+Data :>> true
+↑-----------------------SET AUTOMATED TESTING CHANNELS-----------------------↑
+
+↓-----------------------GET LATEST CONTENT-----------------------↓
+Status :>> 200
+Data :>> "code: 145657"
+↑-----------------------GET LATEST CONTENT-----------------------↑
+
+↓-----------------------UNSET AUTOMATED TESTING CHANNELS-----------------------↓
+Status :>> 200
+Data :>> true
+↑-----------------------UNSET AUTOMATED TESTING CHANNELS-----------------------↑
+
+
+↓-------------GET MAILSAC MESSAGE LIST ERROR----------------↓
+{
+  message: 'Not authorized. You may need to log in first.',
+  requestId: 'msfe_mskdXlfM0bCsdf',
+  responseTime: '3 ms',
+  method: 'GET',
+  path: '/api/addresses/aqa-ci-vttzn-1027-u-send-qoqqp@mailsac.com/messages',
+  status: 401
+}
+401
+Object [AxiosHeaders] {
+  date: 'Wed, 24 Jan 2024 05:04:55 GMT',
+  'content-type': 'application/json; charset=utf-8',
+  'content-length': '219',
+  connection: 'close',
+  'x-frame-options': 'SAMEORIGIN',
+  'access-control-allow-origin': '*',
+  'access-control-allow-methods': 'GET, POST, OPTIONS, DELETE, PUT, PATCH',
+  'x-request-id': 'msfe_mskdXlfM0bCsdf',
+  'content-security-policy': "default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';",
+  'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+  'x-xss-protection': '1; mode=block',
+  'x-mailsac-error': 'Not%20authorized.%20You%20may%20need%20to%20log%20in%20first.',
+  etag: 'W/"db-g0my7g4ThhEnA2e5tsEduz5X4Kk"',
+  vary: 'Accept-Encoding',
+  'cf-cache-status': 'DYNAMIC',
+  'report-to': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Ebw1SxOZfzzvm7bfuV%2BSYCCbmEJ%2FRZCJ90rnRwAGF5xAdfWcRP%2BO6%2F2mtL46OuMrLPPqDhmlzfsEmk7mSu5hXg3%2B42G4VJzsVoyDlNsnKEXS9%2B%2FPb%2F%2FYsK4pcV9K"}],"group":"cf-nel","max_age":604800}',
+  nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}',
+  server: 'cloudflare',
+  'cf-ray': '84a5bd06ccf107e3-IAD'
+}
+↑-------------GET MAILSAC MESSAGE LIST ERROR----------------↑
+
+successfully deleted ./screenshots/screenshotKxMbsox.png
+</pre>
